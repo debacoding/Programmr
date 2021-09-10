@@ -325,14 +325,39 @@ Prime
 [binary conversion: ]()
 
 ```cpp
+#include <iostream>     
+#include <string>    
 
+using namespace std;     
+int main(int argc, char* argv[])     
+{     
+    int num;     
+	string BinaryRepresentation="";     
+	cout<<"Input: ";
+    cin>>num;    
+    
+    if(num == 0) BinaryRepresentation = "0";
+    
+    while(num > 0){
+        // to get the last binary digit of the number 'num'
+        // and accumulate it at the beginning of 'BinaryRepresentation'
+        BinaryRepresentation = ((num & 1) == 0 ? '0' : '1') + BinaryRepresentation;
+         
+        // right shift 'n' by 1
+        num >>= 1;
+    }
+     
+     
+         cout<<"BinaryRepresentation : "<<BinaryRepresentation<<endl;     
+}     
 ```
 
 Output
 ```
-
+Input: 7
+BinaryRepresentation : 111
 ```
-[]
+[]()
 
 ```cpp
 
@@ -342,7 +367,7 @@ Output
 ```
 
 ```
-[]
+[]()
 
 ```cpp
 
@@ -352,7 +377,7 @@ Output
 ```
 
 ```
-[]
+[]()
 
 ```cpp
 
@@ -362,123 +387,8 @@ Output
 ```
 
 ```
-[]
+[]()
 
 ```cpp
-
-```
-
-Output
-```
-
-```
-[]
-
-```cpp
-
-```
-
-Output
-```
-
-```
-[]
-
-```cpp
-
-```
-
-Output
-```
-
-```
-[]
-
-```cpp
-
-```
-
-Output
-```
-
-```
-[]
-
-```cpp
-
-```
-
-Output
-```
-
-```
-[]
-
-```cpp
-
-```
-
-Output
-```
-
-```
-[]
-
-```cpp
-
-```
-
-Output
-```
-
-```
-[]
-
-```cpp
-
-```
-
-Output
-```
-
-```
-[]
-
-```cpp
-
-```
-
-Output
-```
-
-```
-[]
-
-```cpp
-
-```
-
-Output
-```
-
-```
-[]
-
-```cpp
-
-```
-
-Output
-```
-
-```
-[]
-
-```cpp
-
-```
-
-Output
-```
 
 ```
