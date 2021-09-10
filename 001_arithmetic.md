@@ -1,4 +1,4 @@
-[add negative, even & odd numbers from a list]()
+[add negative, even & odd numbers from a list: ]()
 Complete the program to print the sum of negative numbers, positive even numbers, positive odd numbers from a list of numbers entered by the user. The list terminates when the number entered is zero.
 ```cpp
 #include <iostream> 
@@ -41,7 +41,7 @@ Sum of positive even numbers = 36
 Sum of positive odd numbers = 11
 ```
 
-[palindrome number]()
+[palindrome number: ]()
 Write a program which takes a number as input from the user and displays whether it's palindrome or not. A palindrome number is a number that remains the same when its digits are reversed.
 ```cpp
 #include <bits/stdc++.h> 
@@ -84,7 +84,7 @@ Enter a number: -121
 The number is a palindrome
 ```
 
-[sum of the digits of a number]()
+[sum of the digits of a number: ]()
 Write a program to find sum of digits of a number using Do-While
 ```cpp
 #include <iostream> 
@@ -112,7 +112,7 @@ Enter the number: -23
 Sum of digits is: -5
 ```
 
-[sum of digits]()
+[sum of digits: ]()
 Write a program which takes a number as input from the user and shows the sum of digits as output.
 ```cpp
 #include <iostream> 
@@ -138,7 +138,7 @@ Output
 Enter a number:12345
 Sum of digits: 15
 ```
-[distance between 2 points]()
+[distance between 2 points: ]()
 Find the distance between two points A (x1, y1) and B (x2, y2) using distance formula.
 ```cpp
 #include <iostream>                
@@ -172,7 +172,7 @@ Enter y1:5
 Enter y2:5
 distance : 10
 ```
-[area of triangle using Heron's formula]()
+[area of triangle using Heron's formula: ]()
 Calculate the area of a triangle using Heron's formula. Take the three sides of a triangle as inputs.
 
 HERON'S FORMULA: Area= √s(s-a)(s-b)(s-c)
@@ -204,7 +204,7 @@ Enter the three sides :
 6
 Area is : 6.48074
 ```
-[factorial evaluation]()
+[factorial evaluation: ]()
 Find the factorial of a number n.
 ```cpp
 #include <iostream>  
@@ -230,7 +230,7 @@ Output
 Enter the value of n: 5
 Value of factorial is : 120
 ```
-[BMI calculator]()
+[BMI calculator: ]()
 The body mass index (BMI) is commonly used by health and nutrition professionals to estimate human body fat in populations. It is computed by taking the individual's weight (mass) in kilograms and dividing it by the square of their height in meters.
 ```cpp
 #include <bits/stdc++.h>
@@ -257,7 +257,7 @@ Please Enter Your Height In Meters : 1.75
 Please Enter Your Weight In Kg : 73
 Your BMI is 23.8
 ```
-[leap year finder]()
+[leap year finder: ]()
 Complete the program to find out whether a year (entered in 4-digit integer representation) is a leap year.
 ```cpp
 #include <iostream>   
@@ -281,7 +281,7 @@ Output
 Enter year (in 4-digits) : 1932
 Leap year
 ```
-[is it a prime number?]()
+[is it a prime number?: ]()
 Write a program to check whether a given number is prime or not?(n>=2)
 If it is a prime number, print "Prime" else print "Not Prime" (do not print the quotes)
 ```cpp
@@ -322,7 +322,7 @@ Output
 Enter the number: 5
 Prime
 ```
-[binary conversion]()
+[binary conversion: ]()
 
 ```cpp
 
