@@ -357,6 +357,7 @@ Output
 Input: 7
 BinaryRepresentation : 111
 ```
+
 []()
 
 ```cpp
@@ -377,6 +378,7 @@ Output
 ```
 
 ```
+
 []()
 
 ```cpp
@@ -387,8 +389,25 @@ Output
 ```
 
 ```
+
 []()
 
 ```cpp
+
+```
+
+Output
+```
+
+```
+
+[]()
+
+```cpp
+
+```
+
+Output
+```
 
 ```
